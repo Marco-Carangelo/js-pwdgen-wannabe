@@ -42,6 +42,9 @@ document.getElementById('user-color').innerHTML = favoriteColor;
 document.getElementById('user-num-1').innerHTML = num1;
 document.getElementById('user-num-2').innerHTML = num2;
 
+//Print password
+document.getElementById('user-psw').innerHTML = userName + userLastName + favoriteColor + (num1 / num2);
+
 
 
 
