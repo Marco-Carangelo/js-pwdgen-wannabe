@@ -7,6 +7,14 @@ const favoriteColor = prompt("Inserire il colore preferito");
 const num1 = prompt("Inserire il dividendo da cui generare la password");
 const num2 = prompt("Inserire il divisore da cui generare la password");
 
+//Number type controll
+
+if (isNaN(num1) || isNaN(num2)) {
+
+    alert("Inserire valori numerici validi per il dividendo ed il divisore. Ripetere la procedura");
+    location.reload();
+}
+
 
 
 
