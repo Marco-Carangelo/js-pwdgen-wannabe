@@ -1,18 +1,18 @@
 // Variable definition and input acquisition
 
 //Constant
-const userName = prompt("Inserire il nome");
-const userLastName = prompt("Inserire il cognome");
-const favoriteColor = prompt("Inserire il colore preferito");
-const num1 = prompt("Inserire il dividendo da cui generare la password");
-const num2 = prompt("Inserire il divisore da cui generare la password");
+// const userName = prompt("Inserire il nome");
+// const userLastName = prompt("Inserire il cognome");
+// const favoriteColor = prompt("Inserire il colore preferito");
+// const num1 = prompt("Inserire il dividendo da cui generare la password");
+// const num2 = prompt("Inserire il divisore da cui generare la password");
 
 // Assegnazioni temporanee per non inserire tutti valori ad ogni modifica del
-// const userName = '3';
-// const userLastName = '3';
-// const favoriteColor = '3';
-// const num1 = '3';
-// const num2 = '3';
+const userName = '3';
+const userLastName = '3';
+const favoriteColor = '3';
+const num1 = '3';
+const num2 = '3';
 
 
 
@@ -33,4 +33,15 @@ Secondo numero inserito: ${num2}
 ***************************************************
 La Password generata è: ${userName + userLastName + favoriteColor + (num1 / num2)}`
 )
+
+//Print user data
+
+document.getElementById('user-name').innerHTML = userName;
+document.getElementById('user-last-name').innerHTML = userLastName;
+document.getElementById('user-color').innerHTML = favoriteColor;
+document.getElementById('user-num-1').innerHTML = num1;
+document.getElementById('user-num-2').innerHTML = num2;
+
+
+
 
