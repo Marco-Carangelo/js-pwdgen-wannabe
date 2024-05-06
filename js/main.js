@@ -1,18 +1,12 @@
 // Variable definition and input acquisition
 
 //Constant
-// const userName = prompt("Inserire il nome");
-// const userLastName = prompt("Inserire il cognome");
-// const favoriteColor = prompt("Inserire il colore preferito");
-// const num1 = prompt("Inserire il dividendo da cui generare la password");
-// const num2 = prompt("Inserire il divisore da cui generare la password");
+const userName = prompt("Inserire il nome");
+const userLastName = prompt("Inserire il cognome");
+const favoriteColor = prompt("Inserire il colore preferito");
+const num1 = prompt("Inserire il dividendo da cui generare la password");
+const num2 = prompt("Inserire il divisore da cui generare la password");
 
-// Assegnazioni temporanee per non inserire tutti valori ad ogni modifica del
-const userName = '3';
-const userLastName = '3';
-const favoriteColor = '3';
-const num1 = '3';
-const num2 = '3';
 
 
 
